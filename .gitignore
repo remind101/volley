@@ -1,5 +1,15 @@
-bin
-gen
 .gradle
-build
 .settings
+
+#Gradle Build
+build/
+
+# IntelliJ projects
+.idea/
+*.iml
+
+# generated files
+bin/
+gen/
+target/
+.DS_Store
