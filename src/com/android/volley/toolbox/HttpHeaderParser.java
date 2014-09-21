@@ -79,7 +79,7 @@ public class HttpHeaderParser {
             serverExpires = parseDateAsEpoch(headerValue);
         }
 
-        serverEtag = headers.get("ETag");
+        serverEtag = headers.get("Etag");
 
         // Cache-Control takes precedence over an Expires header, even if both exist and Expires
         // is more restrictive.
